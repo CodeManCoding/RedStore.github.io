@@ -55,6 +55,9 @@ p{
     line-height: 62px;
     margin: 25px 0;
 }
+li{
+    list-style: none;
+}
 .btn{
     display: inline-block;
     background: #ff523b;
