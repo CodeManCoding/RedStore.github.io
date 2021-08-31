@@ -316,6 +316,16 @@ td:last-child{
 th:last-child{
     text-align: right;
 }
+.payment{
+    border-top: 3px solid #ff523b; 
+    display: flex;  
+    width: 100%; 
+    justify-content: flex-end;
+}
+.payment .btn{
+    display: inline-block;
+    margin-right: 20px;
+}
 .account-page{
     padding: 50px 0;
     background: radial-gradient(#fff,#ffd6d6);
@@ -419,6 +429,13 @@ form a{
     .menu-icon{
         display: block;
     }
+    .payment{
+        width: 100%;
+        justify-content: center;
+    }
+    .payment .btn{
+        left: 0px;
+    }
 }
 /* -----------------------all product------------------------ */
 .row-2{
@@ -519,4 +536,12 @@ input:focus{
     .card-info p{
         display: none;        
     }
+    .payment{
+        width: 100%;
+        justify-content: center;
+    }
+    .payment .btn{
+        left: 0px;
+    }
+}
 }
