@@ -403,6 +403,10 @@ form a{
 .contact-form h1{
     text-align: center;
 }
+textarea{
+    width: 100%;
+    height: 90px;
+}
 
 
 /* -----------media querry for menu---------- */
